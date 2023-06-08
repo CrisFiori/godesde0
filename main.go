@@ -2,9 +2,8 @@ package main
 
 import (
 	
-	"fmt"
-	
-	"home/cfiori/go/src/github.com/CrisFiori/godesde0/ejercicios"
+	"home/cfiori/go/src/github.com/CrisFiori/godesde0/files"
+//	"fmt"
 ) 
 
 
@@ -12,6 +11,7 @@ func main() {
 	/*estado, texto := variables.ConviertoaTexto(1588)
 	fmt.Println(estado)
 	fmt.Println(texto)
+	
 	
 	if os := runtime.GOOS; os =="linux" || os=="OS X."{
 		fmt.Println("Esto no es Windows, es", os)
@@ -27,11 +27,15 @@ func main() {
 	default:
 		fmt.Printf("$s \n", os)			
 	}
-*/
+
 	nombre, cantidadPersonas := ejercicios.ConviertoaEntero("102")
 		fmt.Println(nombre)
 		fmt.Println(cantidadPersonas)
 
-
+	teclado.IngresoNumeros()
+	iteraciones.Interar()
+	fmt.Println(ejercicios.Multiplicando())
+	*/
+	files.SumaTabla()
 }
  
