@@ -1,9 +1,8 @@
 package main
 
-import (
-	"home/cfiori/go/src/github.com/CrisFiori/godesde0/files"
-	//	"fmt"
-)
+import "home/cfiori/go/src/github.com/CrisFiori/godesde0/funciones"
+
+//	"fmt"
 
 func main() {
 	/*estado, texto := variables.ConviertoaTexto(1588)
@@ -35,6 +34,8 @@ func main() {
 	fmt.Println(ejercicios.Multiplicando())
 
 	files.SumaTabla()
-	*/
-	files.LeoArchivo()
+
+	files.LeoArchivo()*/
+
+	funciones.LlamarClosure()
 }
