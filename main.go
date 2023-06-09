@@ -1,6 +1,6 @@
 package main
 
-import "home/cfiori/go/src/github.com/CrisFiori/godesde0/funciones"
+import "home/cfiori/go/src/github.com/CrisFiori/godesde0/arreglos_slices"
 
 //	"fmt"
 
@@ -35,7 +35,8 @@ func main() {
 
 	files.SumaTabla()
 
-	files.LeoArchivo()*/
+	files.LeoArchivo()
 
-	funciones.LlamarClosure()
+	funciones.LlamarClosure()*/
+	arreglos_slices.MuestroArreglos()
 }
