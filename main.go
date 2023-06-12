@@ -1,6 +1,6 @@
 package main
 
-import "home/cfiori/go/src/github.com/CrisFiori/godesde0/arreglos_slices"
+import "home/cfiori/go/src/github.com/CrisFiori/godesde0/users"
 
 //	"fmt"
 
@@ -37,6 +37,8 @@ func main() {
 
 	files.LeoArchivo()
 
-	funciones.LlamarClosure()*/
-	arreglos_slices.MuestroArreglos()
+	funciones.LlamarClosure()
+	arreglos_slices.Capacidad()*/
+
+	users.AltaUsuario()
 }
