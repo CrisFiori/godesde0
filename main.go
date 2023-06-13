@@ -1,8 +1,10 @@
 package main
 
-import "home/cfiori/go/src/github.com/CrisFiori/godesde0/users"
-
-//	"fmt"
+import (
+	e "home/cfiori/go/src/github.com/CrisFiori/godesde0/ejer_interfaces"
+	"home/cfiori/go/src/github.com/CrisFiori/godesde0/modelos"
+	//	"fmt"
+)
 
 func main() {
 	/*estado, texto := variables.ConviertoaTexto(1588)
@@ -38,7 +40,11 @@ func main() {
 	files.LeoArchivo()
 
 	funciones.LlamarClosure()
-	arreglos_slices.Capacidad()*/
+	arreglos_slices.Capacidad()
 
-	users.AltaUsuario()
+	users.AltaUsuario()*/
+	Pedro := new(modelos.Hombre)
+	e.HumanosRespirando(Pedro)
+	Maria := new(modelos.Mujer)
+	e.HumanosRespirando(Maria)
 }
