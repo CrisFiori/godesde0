@@ -1,8 +1,7 @@
 package main
 
 import (
-	e "home/cfiori/go/src/github.com/CrisFiori/godesde0/ejer_interfaces"
-	"home/cfiori/go/src/github.com/CrisFiori/godesde0/modelos"
+	"home/cfiori/go/src/github.com/CrisFiori/godesde0/middlewares"
 	//	"fmt"
 )
 
@@ -42,9 +41,20 @@ func main() {
 	funciones.LlamarClosure()
 	arreglos_slices.Capacidad()
 
-	users.AltaUsuario()*/
+	users.AltaUsuario()
 	Pedro := new(modelos.Hombre)
 	e.HumanosRespirando(Pedro)
 	Maria := new(modelos.Mujer)
 	e.HumanosRespirando(Maria)
+
+	defer_panic.EjemploPanic ()
+	canal1 := make(chan bool)
+	go goroutines.MiNombreLento("Cristian Fiori", canal1)
+
+	fmt.Println("Estoy aqui :")
+	<-canal1
+	webserver.MiWebServer()*/
+
+	middlewares.MiMiddleware()
+
 }
